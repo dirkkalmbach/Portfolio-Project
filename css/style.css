@@ -1,7 +1,7 @@
 /*For Design Purpose: */
-* {
+/** {
    outline: 1px solid red !important;
-}
+}*/
 
 
 * {
@@ -22,36 +22,69 @@ body {
 	color: #2d3c49;
 }
 
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 .text-title {
 	font-weight: 100;
 	font-size: 60px;
 	text-transform: uppercase;
 	text-align: right;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
+
 .text-subtitle {
-	font-size: 20px;
+	font-size: 30px;
 	text-transform: uppercase;
 	text-align: right;
+	margin-top: 0px;
 }
-.text-muted {
+#text-muted {
 	color: #7d97ad;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
 }
 
 .title-logo {
 	margin-top: 20px;
 }
 
+.no-margin {
+	margin: 0px;
+}
 
+.img-centered {display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
 a:link {
 	color: #2d3c49;
 	text-decoration: none;
+	font-size: 10px;
 }
+.portfolio {text-align: center;}
 
+.portfolio-text {
+	font-size: 30px;
+}
 hr {
-height: 4px;
-color: #7d97ad;
-background-color: #7d97ad;
-border: none;
+	margin-top: 0px;
+	height: 5px;
+	color: #7d97ad;
+	background-color: #7d97ad;
+	border: none;
 }
 */
+
+
+
+#featured-work {
+	margin-top: 20px;
+	margin-bottom: 10px
+}
