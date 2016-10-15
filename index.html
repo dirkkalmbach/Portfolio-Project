@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dirk Kalmbach Baker Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- <link rel="stylesheet" href="css/adding.css" -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+    	<div class="row">
+      		<div class="col-md-6">
+      			<img class="title-logo" class="img-responsive" src="Images/DirkKalmbach.jpg" alt="Dirk Kalmbach"></div>
+      		<div class="col-md-6 text-right text-uppercase">
+      			<h1 class="text-title">Dirk Kalmbach</h1>
+      			<h4 class="text-subtitle">Baker</h4>
+      		</div>
+    	</div>
+
+	    <div class="row">
+	    	<div class="col-md-12">
+	    		<hr>
+	    	</div>
+	    </div>
+
+	    <div class="row" id="main-image">
+
+			<!-- Carousel (Sliding images) -->
+			<div col-md-12 id="carousel-of-main-image" class="carousel slide" data-ride="carousel" data-interval="3000">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+				<li data-target="#carousel-of-main-image" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-of-main-image" data-slide-to="1"></li>
+				<li data-target="#carousel-of-main-image" data-slide-to="2"></li>
+				<li data-target="#carousel-of-main-image" data-slide-to="3"></li>
+				<li data-target="#carousel-of-main-image" data-slide-to="4"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="images/bakingProcess1.jpg" alt="image of adding flour">
+					<div class="carousel-caption">
+					</div>
+					</div>
+					<div class="item">
+					<img src="images/bakingProcess2.jpg" alt="image of kneaded dough">
+					<div class="carousel-caption">
+					</div>
+					</div>
+					<div class="item">
+					<img src="images/bakingProcess3.jpg" alt="image of forming rolls">
+					<div class="carousel-caption">
+					</div>
+					</div>
+					<div class="item">
+					<img src="images/bakingProcess4.jpg" alt="image of putting rolls in the oven">
+					<div class="carousel-caption">
+					</div>
+					</div>
+					<div class="item">
+					<img src="images/bakingProcess5.jpg" alt="image of baking rolls">
+					<div class="carousel-caption">
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	    <div class="row">
+	    	<div class="col-md-12">
+	    		<h2 class="text-muted">Featured Work</h2>
+	    	</div>
+	    </div>
+
+	    <div class="row text-center">
+	      <div class="col-md-4">
+<!-- 	      	<img class="img-responsive" src="http:placehold.it/300x200">
+ -->	      	<img class="img-responsive" src="http:placehold.it/300x200" data-toggle="modal" data-target="#project1">
+	      	<h3>Bread, Rolls, and Cake</h3>
+	      	<p><a href="/products">Link to handcrafted bakery products</a></p>
+	      </div>
+	      <div class="col-md-4">
+	      	<img class="img-responsive" src="http:placehold.it/300x200">
+	      	<h3>Handcrafted Advertisment</h3>
+	      	<p><a href="/products">Link to advertisment campaigns I made</a></p>
+	      </div>
+	      <div class="col-md-4">
+	      	<img class="img-responsive" src="http:placehold.it/300x200">
+	      	<h3>References</h3>
+	      	<p><a href="/products">Link to References</a></p>
+	      </div>
+		</div>
+
+ 	</div>
+
+
+
+   <!-- Modal: Description of Portfolio-->
+	<div id="additional-info">
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+		            </div>
+		            <div class="modal-body">
+		                <img class="img-responsive" src="http:placehold.it/300x200">
+		                I grew up in a small bakery in Germany and I was running my own bakery for years. Here I show you some handcrafted bakery products I developed and sold in our bakery.
+		            </div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+
+</body>
+
+</html>
