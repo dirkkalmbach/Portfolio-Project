@@ -13,7 +13,7 @@ I added some extra functionality:
 I used the [Bootstrap 3 Framework](http://getbootstrap.com) for the grid system of the page as well as for the carousel and for the pop-up window.
 
 ## How to run it?
-Simply click [here]().
+Simply click [here](http://htmlpreview.github.io/?https://github.com/dirkkalmbach/Portfolio-Project/blob/master/index.html).
 
 
 ## References
