@@ -16,24 +16,50 @@
 <body>
 	<div class="container">
     	<div class="row no-gutter">
-      		<div class="col-md-6">
-      			<img class="title-logo img-responsive" src="images/DirkKalmbach.png" alt="Dirk Kalmbach"></div>
-      		<div class="col-md-6 text-right text-uppercase">
+      		<div class="col-xs-2">
+      			<img class="title-logo img-responsive" src="images/DirkKalmbach.png" alt="Dirk Kalmbach">
+      		</div>
+      		<div class="col-xs-10 text-right text-uppercase">
       			<h1 class="text-title">Dirk Kalmbach</h1>
-      			<h4 class="text-subtitle">Baker</h4>
+      			<h4>Baker</h4>
       		</div>
     	</div>
 
+		<!-- Only for Mobile Portrait -->
+<!--     	<div class="row no-gutter hidden-md hidden-ld text-uppercase">
+    		<div class="col-xs-3">
+    			<img class="title-logo img-responsive" src="images/DirkKalmbach-xs.png" alt="Dirk Kalmbach">
+    		</div>
+
+    		<div class="col-xs-9">
+    			<h1>Dirk</h1>
+    		</div>
+    		<div class="col-xs-12">
+    			<h1>Kalmbach</h1>
+    		</div>
+    		<div class="col-xs-12">
+    			<h4>Baker</h1>
+    		</div> -->
+
+
+
+
+
 	    <div class="row no-gutter">
-	    	<div class="col-md-12">
+	    	<div class="col-xs-12">
 	    		<hr>
 	    	</div>
 	    </div>
 
 	    <div class="row no-gutter" id="main-image">
+	    	<!-- Only Tablets -->
+	    	<div class="col-sm-12 hidden-xs hidden-md hidden-lg">
+	    		<img class="img-responsive" src="images/bakingProcess3.jpg" alt="image of forming rolls">
+	    	</div>
+
 
 			<!-- Carousel (Sliding images) -->
-			<div col-md-12 id="carousel-of-main-image" class="carousel slide" data-ride="carousel" data-interval="3000">
+			<div class="col-md-12 hidden-xs hidden-sm" id="carousel-of-main-image" class="carousel slide" data-ride="carousel" data-interval="3000">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
 				<li data-target="#carousel-of-main-image" data-slide-to="0" class="active"></li>
@@ -75,36 +101,55 @@
 		</div>
 
 	    <div class="row">
-	    	<div class="col-md-12 no-margin no-gutter">
+	    	<div class="col-xs-12 no-margin no-gutter">
 	    		<h2 id="text-muted">Featured Work</h2>
 	    	</div>
 	    </div>
 
-	    <div class="row no-gutter portfolio">
-	      <div class="col-md-4 temp">
-<!-- 	      	<img class="img-responsive" src="http:placehold.it/300x200">
- -->	      	<img class="img-responsive img-centered" src="images/products.jpg" data-toggle="modal" data-target="#project1">
+	    <div class="row hidden-xs no-gutter portfolio">
+	      <div class="col-sm-4">
+			<img class="img-responsive img-centered" src="images/products.jpg" alt="bakery products" data-toggle="modal" data-target="#project1">
 	      	<h3 class="no-margin portfolio-text">Bread, Rolls, and Cake</h3>
-	      	<p class="no-margin"><a href="images/products.jpg">Link to handcrafted bakery products</a></p>
+	      	<p class="no-margin"><a href="portfolio-products.html">Link to handcrafted bakery products</a></p>
 	      </div>
-	      <div class="col-md-4">
-	      	<img class="img-responsive img-centered" src="images/logo.png">
+	      <div class="col-sm-4">
+	      	<img class="img-responsive img-centered" src="images/logo.png" alt="bakery kalmbach logo">
 	      	<h3 class="no-margin portfolio-text">Handcrafted Advertisment</h3>
-	      	<p class="no-margin"><a href="/products">Link to advertisment campaigns I made</a></p>
+	      	<p class="no-margin"><a href="portfolio-ad.html">Link to advertisment campaigns I made</a></p>
 	      </div>
-	      <div class="col-md-4">
-	      	<img class="img-responsive img-centered" src="images/Meisterbrief.jpg">
+	      <div class="col-sm-4">
+	      	<img class="img-responsive img-centered" src="images/Meisterbrief.jpg" alt="master baker certificate">
 	      	<h3 class="no-margin portfolio-text">References</h3>
-	      	<p class="no-margin"><a href="/products">Link to References</a></p>
+	      	<p class="no-margin"><a href="portfolio-references.html">Link to References</a></p>
 	      </div>
 		</div>
 
- 	</div>
+	<div class="row hidden-sm hidden-md hidden-lg">
+		<div class="xs-12">
+			<h3>Bread, Rolls, and Cakes</h3>
+			<a href="portfolio-products.html">
+			<img class="img-responsive img-centered" src="images/products-xs.jpg" alt="bakery products">
+			</a>
+		</div>
 
+		<div class="xs-12">
+			<h3>Handcrafted Advertisment</h3>
+			<a href="portfolio-ad.html">
+			<img class="img-responsive img-centered" src="images/logo-xs.png" alt="bakery kalmbach logo">
+			</a>
+	 	</div>
+
+	 	<div class="xs-12">
+			<h3>References</h3>
+			<a href="portfolio-references.html">
+			<img class="img-responsive img-centered" src="images/Meisterbrief-xs.jpg" alt="master baker certificate">
+			</a>
+	 	</div>
+	</div>
 
 
    <!-- Modal: Description of Portfolio-->
-	<div id="additional-info">
+	<div class="hidden-sm" id="additional-info">
 		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		    <div class="modal-dialog">
 		        <div class="modal-content">

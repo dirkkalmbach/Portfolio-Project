@@ -1,8 +1,7 @@
-/*For Design Purpose: */
+
 /** {
    outline: 1px solid red !important;
 }*/
-
 
 * {
     -webkit-box-sizing: border-box;
@@ -11,25 +10,30 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 450px){
-	#main-image {display: none;}
+/*@media only screen and (max-width: 800px){
 	#additional-info {display: none;}
-}
+}*/
 
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: #2d3c49;
 }
+/*@media only screen and (max-width:900px){
+     .text-title {font-size:1px};
+  }*/
 
-.no-gutter > [class*='col-'] {
+
+
+
+/*.no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
-}
+}*/
 
-.text-title {
+h1 {
+	font-size: 60pt;
 	font-weight: 100;
-	font-size: 60px;
 	text-transform: uppercase;
 	text-align: right;
 	padding-top: 0px;
@@ -37,8 +41,8 @@ body {
 	margin-bottom: 0px;
 }
 
-.text-subtitle {
-	font-size: 30px;
+h4 {
+	font-size: 40px;
 	text-transform: uppercase;
 	text-align: right;
 	margin-top: 0px;
@@ -49,6 +53,22 @@ body {
 	margin-top: 20px;
 	margin-bottom: 10px;
 
+}
+
+#left-image {
+	margin-left: 0px
+}
+
+#right-image {
+	margin-right: 0px
+}
+
+#portfolio-text-left {
+	margin-right: 90px;
+}
+
+#portfolio-text-right {
+	margin-left: 90px;
 }
 
 .title-logo {
@@ -68,9 +88,12 @@ a:link {
 	text-decoration: none;
 	font-size: 10px;
 }
-.portfolio {text-align: center;}
+.portfolio {
+	text-align: center;
+	margin-bottom: 40px;
+}
 
-.portfolio-text {
+h3 {
 	font-size: 30px;
 }
 hr {
@@ -87,4 +110,32 @@ hr {
 #featured-work {
 	margin-top: 20px;
 	margin-bottom: 10px
+}
+
+/*Apply this only on mobile and tablet devices:*/
+@media only screen and (max-width:900px){
+     hr {height:1px};
+}
+
+
+ /*Apply this only on mobile portrait view:*/
+ @media only screen and (max-width:768px){
+     h1 {
+     	font-size: 9vw
+     }
+     h2 {
+     	font-size: 30px;
+     	margin-bottom: 10px;
+     }
+     h3 {
+     	text-align: center;
+     	font-size: 25px;
+     	margin-bottom: 0px;
+     }
+     h4 {
+     	font-size: 20px
+     }
+	#text-muted {
+     	text-align: center
+     }
 }
