@@ -15,7 +15,7 @@
 
 <body>
 	<div class="container">
-    	<div class="row no-gutter">
+    	<div class="row">
       		<div class="col-xs-2">
       			<img class="title-logo img-responsive" src="images/DirkKalmbach.png" alt="Dirk Kalmbach">
       		</div>
@@ -26,7 +26,7 @@
     	</div>
 
 		<!-- Only for Mobile Portrait -->
-<!--     	<div class="row no-gutter hidden-md hidden-ld text-uppercase">
+<!--     	<div class="row  hidden-md hidden-ld text-uppercase">
     		<div class="col-xs-3">
     			<img class="title-logo img-responsive" src="images/DirkKalmbach-xs.png" alt="Dirk Kalmbach">
     		</div>
@@ -45,16 +45,16 @@
 
 
 
-	    <div class="row no-gutter">
+	    <div class="row">
 	    	<div class="col-xs-12">
 	    		<hr>
 	    	</div>
 	    </div>
 
-	    <div class="row no-gutter" id="main-image">
+	    <div class="row" id="main-image">
 	    	<!-- Only Tablets -->
-	    	<div class="col-sm-12 hidden-xs hidden-md hidden-lg">
-	    		<img class="img-responsive" src="images/bakingProcess3.jpg" alt="image of forming rolls">
+	    	<div class="col-xs-12 hidden-xs hidden-md hidden-lg">
+	    		<img class="img-responsive" src="images/bakingProcess3.jpg" alt="forming rolls from dough">
 	    	</div>
 
 
@@ -101,24 +101,24 @@
 		</div>
 
 	    <div class="row">
-	    	<div class="col-xs-12 no-margin no-gutter">
+	    	<div class="col-xs-12 no-margin ">
 	    		<h2 id="text-muted">Featured Work</h2>
 	    	</div>
 	    </div>
 
-	    <div class="row hidden-xs no-gutter portfolio">
+	    <div class="row hidden-xs  portfolio">
 	      <div class="col-sm-4">
 			<img class="img-responsive img-centered" src="images/products.jpg" alt="bakery products" data-toggle="modal" data-target="#project1">
 	      	<h3 class="no-margin portfolio-text">Bread, Rolls, and Cake</h3>
 	      	<p class="no-margin"><a href="portfolio-products.html">Link to handcrafted bakery products</a></p>
 	      </div>
 	      <div class="col-sm-4">
-	      	<img class="img-responsive img-centered" src="images/logo.png" alt="bakery kalmbach logo">
+	      	<img class="img-responsive img-centered" src="images/logo.png" alt="bakery kalmbach logo" data-toggle="modal" data-target="#project2">
 	      	<h3 class="no-margin portfolio-text">Handcrafted Advertisment</h3>
 	      	<p class="no-margin"><a href="portfolio-ad.html">Link to advertisment campaigns I made</a></p>
 	      </div>
 	      <div class="col-sm-4">
-	      	<img class="img-responsive img-centered" src="images/Meisterbrief.jpg" alt="master baker certificate">
+	      	<img class="img-responsive img-centered" src="images/Meisterbrief.jpg" alt="master baker certificate" data-toggle="modal" data-target="#project3">
 	      	<h3 class="no-margin portfolio-text">References</h3>
 	      	<p class="no-margin"><a href="portfolio-references.html">Link to References</a></p>
 	      </div>
@@ -154,11 +154,43 @@
 		    <div class="modal-dialog">
 		        <div class="modal-content">
 		            <div class="modal-header">
-		                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+		                <h5 class="modal-title" id="myModalLabel">Handcrafted Bakery Products</h5>
 		            </div>
 		            <div class="modal-body">
-		                <img class="img-responsive" src="http:placehold.it/300x200">
-		                I grew up in a small bakery in Germany and I was running my own bakery for years. Here I show you some handcrafted bakery products I developed and sold in our bakery.
+		                <img class="img-responsive img-centered" src="images/products-sortiment.jpg">
+		                <i>The proof of the putting is to eat it.</i> Well I can't offer you a cineman roll over the internet. But I can show you pictures of some handcrafted bakery products I developed and which we used to sell in our bakery.
+		            </div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <h5 class="modal-title" id="myModalLabel">Handcrafted Advertisement</h5>
+		            </div>
+		            <div class="modal-body">
+		                <img class="img-responsive img-centered" src="images/ad-mockup.jpg">
+		                <i>Running a bakery is a full-time creative process.</i> To build a local brand I developed some adverts which I show you here.
+		            </div>
+		            <div class="modal-footer">
+		                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		                <h5 class="modal-title" id="myModalLabel">References</h5>
+		            </div>
+		            <div class="modal-body">
+		                <img class="img-responsive img-centered" src="images/references.jpg">
+		                <i>Legally attested.</i> Certificates about my vocational training as a master baker in Germany, and baking competitions I win.
 		            </div>
 		            <div class="modal-footer">
 		                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

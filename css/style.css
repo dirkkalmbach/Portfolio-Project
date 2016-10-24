@@ -83,6 +83,8 @@ h4 {
     margin-left: auto;
     margin-right: auto;}
 
+.modal-dialog {text-align: center}
+
 a:link {
 	color: #2d3c49;
 	text-decoration: none;
@@ -96,6 +98,11 @@ a:link {
 h3 {
 	font-size: 30px;
 }
+
+h5 {
+	font-size: 30px;
+}
+
 hr {
 	margin-top: 0px;
 	height: 5px;
@@ -103,9 +110,11 @@ hr {
 	background-color: #7d97ad;
 	border: none;
 }
-*/
+.modal-body {
+	font-size: 15px
+}
 
-
+.modal-dialog {text-align: center;}
 
 #featured-work {
 	margin-top: 20px;
@@ -133,9 +142,16 @@ hr {
      	margin-bottom: 0px;
      }
      h4 {
-     	font-size: 20px
+     	font-size: 20px;
+     }
+.modal-title {font-size: 7vw;}
      }
 	#text-muted {
      	text-align: center
      }
+}
+
+/*Apply this only on mobile and tablet devices:*/
+@media only screen and (max-width:600px) and (orientation:landscape){
+     body {display:none};
 }

@@ -10,10 +10,10 @@ I added some extra functionality:
 - a carousel which changes the pictures every 3s in the main frame
 - a modal (=pop-up window) which provides some additional information to my portfolio sites
 
-I used the [Bootstrap 3 Framework](http://getbootstrap.com) for the grid system of the page as well as for the carousel and for the pop-up window.
+I used the [Bootstrap 3 Framework](http://getbootstrap.com) for the grid system of the page as well as for the carousel and for the modal.
 
 ## How to run it?
-Simply click [here](http://htmlpreview.github.io/?https://github.com/dirkkalmbach/Portfolio-Project/blob/master/index.html).
+Simply click [here](https://cdn.rawgit.com/dirkkalmbach/Portfolio-Project/master/index.html).
 
 ## Responsiveness
 Bootstrap 3 distinguish between 4 viewports: mobile, tablet, and large and medium desktops.
