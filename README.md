@@ -21,12 +21,12 @@ I replicated the mockup for desktop vievports. For mobile devices I changed thes
 
 - the main frame (with the carousel) will be diminished
 - the portfolio information are vertically (rather than horizontally) arranged
-- instead of explicit links to the portfolio sites the correspondent image is now a link
+- instead of explicit links to the portfolio sites the correspondent image works now as a link
 - minor layout adjustments like a thinner horizontal line
 
 For tablet devices the carousel is replaced by a single image to take account of lower bandwith on mobile devices.
 
-Finally, modals are suppressed on tablets and mobile.
+Finally, modals are suppressed on tablets.
 
 ## References
 
