@@ -10,8 +10,12 @@
     box-sizing: border-box;
 }
 
+header {
+	margin-top: 20px;
+}
+
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	color: #2d3c49;
 }
@@ -29,10 +33,11 @@ h1 {
 	font-weight: 100;
 	text-transform: uppercase;
 	text-align: right;
-	padding-top: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
+
 h3 {
 	font-size: 3vw;
 }
@@ -41,7 +46,7 @@ h4 {
 	font-size: 3vw;
 	text-transform: uppercase;
 	text-align: right;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 h5 {
@@ -56,12 +61,12 @@ a:link {
 
 .title-logo {
 	vertical-align: middle;
-	margin-top: 5%
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
 .no-margin {
-	margin: 0px;
+	margin: 0;
 }
 
 .img-centered {
@@ -101,10 +106,6 @@ a:link {
 	text-align: center;
 }
 
-#header {
-	margin-top: 20px;
-}
-
 #text-muted {
 	color: #7d97ad;
 	font-size: 5vw;
@@ -113,8 +114,8 @@ a:link {
 }
 
 /*Apply this only on mobile and tablet devices:*/
-@media only screen and (max-width:900px){
-     hr {height:1px};
+@media only screen and (max-width: 900px){
+     hr {height: 1px};
 }
 
 /*Apply this only on mobile landscape mode:*/
